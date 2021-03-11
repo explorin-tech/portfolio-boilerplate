@@ -1,7 +1,8 @@
 from django.urls import path, include
 from django.conf.urls.static import static
+from django.conf import settings
 from .views import (
-    home_page, website, calculator, login_page, sql
+    home_page, website, calculator, loginpage, sql
 )
 
 urlpatterns = [
