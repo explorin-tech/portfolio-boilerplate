@@ -7,7 +7,7 @@ from .views import (
 
 urlpatterns = [
     path(
-            '', home_page, name='home_page'
+            '', home_page, name='portfolio_home'
         ),
     path(
             'website/', website, name='website'

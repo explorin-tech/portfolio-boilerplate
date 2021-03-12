@@ -8,7 +8,7 @@ from .views import (
 
 urlpatterns = [
     path(
-            '', home_page, name='home'
+            '', home_page, name='polls_home'
         ),
     # Add your urls here
 ]
